@@ -9,12 +9,8 @@
 /coverage
 
 # production
-/public
-/src
-package.json
-README.md
-package-lock.json
-tsconfig.json
+/build
+
 # misc
 .DS_Store
 .env.local
