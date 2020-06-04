@@ -1,44 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ⚛️ React.ts Boilerplate
 
-## Available Scripts
+Boilerplate para proyectos de React.ts CSR. Listo para producción, organizado, optimizado para SEO y compatible con WCAG 2.1
 
-In the project directory, you can run:
+---
 
-### `npm start`
+Boilerplate for React.ts CSR projects. Production ready, organized and optimized for SEO.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1590290688/Screens/100_tjsyob.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 🏷️ Características / Features
 
-### `npm test`
+- Optimizado para SEO / SEO Ready.
+- Esenciales WCAG 2.1 para la accesibilidad Web
+- Ruteador, Rutas privadas, públicas y restringidas / Router, Private, public and restricted routes.
+- Cliente HTTP / HTTP Client.
+- PWA Listo / PWA Ready.
+- SASS precargado / SASS incorporated.
+- NProgress Loader.
+- Código documentado / Documented code.
+- Estructura de carpetas / Folder structure.
+- Estructura de carpetas / Folder structure.
+- Última versión mayor de React / React latest version.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🚀 Para empezar / Get started
 
-### `npm run build`
+Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo. Consulte la sección de implementación para obtener notas sobre cómo desplegar el proyecto en producción.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+These instructions will provide you with a copy of the running project on your local machine for development purposes. See the implementation section for notes on how to deploy the project into production.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd react-boilerplate
+npm install
+npm start
+```
 
-### `npm run eject`
+### 📦 Node modules
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Node SASS](https://github.com/sass/node-sass) - SASS Compiler
+- [React NProgress](https://github.com/tanem/react-nprogress) - Progress bar
+- [React App Polyfill](https://www.npmjs.com/package/react-app-polyfill) - Polyfill
+- [React Helmet Async](https://www.npmjs.com/package/react-helmet-async) - Document Head manager
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom) - Router
+- [Superagent](https://github.com/visionmedia/superagent) - HTTP core client
+- [Web Font Loader](https://github.com/typekit/webfontloader) - Async Web Font Loader
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📐 Requisitos / Requirements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Node min: 10
+- Web Browser
+- VS Code, Atom, Sublime text
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 📁 Estructura / Folder structure
 
-## Learn More
+    ├── node_modules            # Módulos Node
+    ├── components              # Componentes
+    ├── pages                   # Páginas
+    ├── routes                  # Ruteador
+    ├── sass                    # Módulos SASS
+    ├── libs                    # Librerías
+    ├── utils                   # Utilidades
+    └── README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Colaboradores / Collaborators
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Mrvalem - digitalNews, rony cb** - _Frontend_ - [trejocode](https://github.com/mrbalem)
+
+* You ❤
+
+## 📋 Licencia / Licence
+
+MIT - vea el archivo [LICENSE.md](LICENSE.md) para más detalles.
